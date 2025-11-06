@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap);
+body {
+    background-color:  hsl(47, 88%, 63%);
+    font-size: 15px;
+    font-family:'Figtree', sans-serif;
+    font-weight: 500;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card-1-bg {
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 22px;
+    width: 300px;
+}
+.date-published {
+    background-color: yellow;
+}
+.card-img {
+    width: 100%;
+    border-radius: 12px;
+  
+}
+.learning-bg{
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.05px;
+    width: 70px;
+    ;    
+}
+.footer-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-name span{
+   font-weight: 500;
+}
+.main-text{
+    font-weight: 450;
+    color:  hsl(0, 0%, 42%);
+    line-height: 1.5;
+
+}
+.date-publish {
+    font-weight: 500;
+    color:   hsl(0, 0%, 7%);
+    font-size: 16px;
+}
