@@ -16,6 +16,7 @@ body {
     border: 1px solid black;
     border-radius: 22px;
     width: 300px;
+    box-shadow: 8px 6px  #000;
 }
 .date-published {
     background-color: yellow;
@@ -25,11 +26,14 @@ body {
     border-radius: 12px;
   
 }
-.learning-bg{
+.learning-bg span{
     background-color: hsl(47, 88%, 63%);
-    padding: 0.05px;
-    width: 70px;
-    ;    
+    padding: 5px 12px; 
+    border-radius: 4px; 
+}
+.learning-bg {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .footer-name{
     display: flex;
@@ -46,7 +50,7 @@ body {
 
 }
 .date-publish {
-    font-weight: 500;
+    font-weight: 370;
     color:   hsl(0, 0%, 7%);
     font-size: 16px;
 }
